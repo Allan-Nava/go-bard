@@ -75,5 +75,6 @@ func(o *gobard) getSnim0e() error {
 		return err
 	}
 	log.Println("resp ", resp)
+	// re.search(r"SNlM0e\":\"(.*?)\"", resp.text).group(1)
 	return nil
 } 
