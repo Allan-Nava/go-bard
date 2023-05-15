@@ -22,7 +22,7 @@ func GetGoBard() gobard.IGoBard {
 	//
 	configuration := configuration.GetConfiguration()
 	g := gobard.NewGoBoard(
-		configuration
+		configuration,
 	)
 	//
 	return g
