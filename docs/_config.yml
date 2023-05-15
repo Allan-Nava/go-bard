@@ -13,10 +13,10 @@ remote_theme: pmarsceill/just-the-docs
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: go-board
-description: goboard Go sdk official documentation
+title: go-bard
+description: gobard Go sdk official documentation
 #baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
-url: "https://Allan-Nava.github.io/go-board/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://Allan-Nava.github.io/go-bard/" # the base hostname & protocol for your site, e.g. http://example.com
 #
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
@@ -55,8 +55,8 @@ heading_anchors: true
 #
 # Aux links for the upper right navigation
 aux_links:
-  "go-board":
-    - "//github.com/Allan-Nava/go-board"
+  "go-bard":
+    - "//github.com/Allan-Nava/go-bard"
 #
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
@@ -70,7 +70,7 @@ nav_sort: case_insensitive # default, equivalent to nil
 back_to_top: true
 back_to_top_text: "Back to top"
 #
-footer_content: "Copyright &copy; 2022-present go-board . Distributed by Github <a href=\"https://github.com/Allan-Nava/go-board/blob/main/LICENSE.md>MIT license.</a>"
+footer_content: "Copyright &copy; 2022-present go-bard . Distributed by Github <a href=\"https://github.com/Allan-Nava/go-bard/blob/main/LICENSE.md>MIT license.</a>"
 #
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -79,7 +79,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/Allan-Nava/go-board/blob/main/docs/index.md" # the github URL for your repo
+gh_edit_repository: "https://github.com/Allan-Nava/go-bfard/blob/main/docs/index.md" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 #
