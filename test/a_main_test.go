@@ -1,11 +1,13 @@
-package test 
-
+package test
 
 import (
 	"os"
 	"testing"
-)
 
+	"github.com/Allan-Nava/go-bard/configuration"
+	"github.com/Allan-Nava/go-bard/env"
+	"github.com/Allan-Nava/go-bard/gobard"
+)
 
 func TestMain(m *testing.M) {
 	if os.Getenv("APP_ENV") == "" {

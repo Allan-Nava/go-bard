@@ -39,8 +39,6 @@ func NewGoBoard(configuration *configuration.Configuration) IGoBard {
 	return g
 }
 
-
-
 // Resty Methods
 
 func (o *gobard) restyPost(url string, body interface{}) (*resty.Response, error) {
