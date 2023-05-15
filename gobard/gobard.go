@@ -6,6 +6,7 @@ import (
 )
 
 type IGoBard interface {
+	
 }
 
 type gobard struct {
