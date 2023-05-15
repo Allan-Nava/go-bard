@@ -43,7 +43,7 @@ func NewGoBoard(configuration *configuration.Configuration) IGoBard {
 
 // Resty Methods
 
-func (o *goboard) restyPost(url string, body interface{}) (*resty.Response, error) {
+func (o *gobard) restyPost(url string, body interface{}) (*resty.Response, error) {
 	resp, err := o.restClient.R().
 		SetHeader("Accept", "application/json").
 		SetBody(body).
@@ -55,7 +55,7 @@ func (o *goboard) restyPost(url string, body interface{}) (*resty.Response, erro
 	return resp, nil
 }
 
-func (o *goboard) restyGet(url string, queryParams map[string]string) (*resty.Response, error) {
+func (o *gobard) restyGet(url string, queryParams map[string]string) (*resty.Response, error) {
 	resp, err := o.restClient.R().
 		SetQueryParams(queryParams).
 		Get(url)
