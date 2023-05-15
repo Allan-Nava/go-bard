@@ -1,5 +1,4 @@
-package gobard
-
+package constants
 
 const (
 	//
