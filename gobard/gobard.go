@@ -13,6 +13,7 @@ type IGoBard interface {
 type gobard struct {
 	configuration *configuration.Configuration
 	restClient    *resty.Client
+	sNlM0e string 
 }
 
 func NewGoBoard(configuration *configuration.Configuration) IGoBard {
