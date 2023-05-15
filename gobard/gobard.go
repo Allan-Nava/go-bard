@@ -3,6 +3,7 @@ package gobard
 import (
 	"log"
 	"github.com/Allan-Nava/go-bard/configuration"
+	"github.com/Allan-Nava/go-bard/constants"
 	"github.com/go-resty/resty/v2"
 )
 
@@ -21,7 +22,7 @@ func NewGoBoard(configuration *configuration.Configuration) IGoBard {
 		configuration: configuration,
 	}
 	g.restClient = resty.New()
-	//g.restClient.SetBaseURL(routes.BASE_URL)
+	g.restClient.SetBaseURL(constants.BASE_URL)
 	/*
 		g.restClient.SetHeader("Referer", "https://bard.google.com/")
 		//"Host": "bard.google.com",
