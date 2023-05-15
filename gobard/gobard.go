@@ -1,6 +1,7 @@
 package gobard
 
 import (
+	"log"
 	"github.com/Allan-Nava/go-bard/configuration"
 	"github.com/go-resty/resty/v2"
 )
@@ -64,3 +65,14 @@ func (o *gobard) restyGet(url string, queryParams map[string]string) (*resty.Res
 	}
 	return resp, nil
 }
+
+// internal api
+// _get_snim0e
+func(o *gobard) getSnim0e() error {
+	resp, err := o.restyGet("/", nil)
+	if err != nil {
+		return err
+	}
+	log.Println("resp ", resp)
+	return nil
+} 
