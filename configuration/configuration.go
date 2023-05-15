@@ -5,6 +5,7 @@ import "github.com/caarlos0/env/v6"
 type Configuration struct {
 	IsDebug bool `env:"IS_DEBUG"`
 	BaseUrl string
+	BardApiKey string `env:"_BARD_API_KEY"`
 	//RestClient *resty.Client
 }
 
