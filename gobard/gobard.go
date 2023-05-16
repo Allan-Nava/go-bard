@@ -8,7 +8,9 @@ import (
 )
 
 type IGoBard interface {
-	
+	// api
+	GetAnswer() error
+	//
 }
 
 type gobard struct {
