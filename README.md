@@ -4,6 +4,12 @@
 
 A powerful Go package that returns response of Google Bard through API.
 
+### Authentication
+
+1. Visit https://bard.google.com/
+2. F12 for console
+3. Session: Application → Cookies → Copy the value of __Secure-1PSID cookie.
+
 
 ### Contributing
 We welcome contributions to this project. Please see the [contributing guidelines](https://github.com/Allan-Nava/go-bard/blob/master/CONTRIBUTING.md) for more information.
