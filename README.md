@@ -4,7 +4,7 @@
 
 A powerful Go package that returns response of Google Bard through API.
 
-### Authentication
+### Authentication
 
 1. Visit https://bard.google.com/
 2. F12 for console
